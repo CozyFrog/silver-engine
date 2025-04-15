@@ -15,7 +15,7 @@
 	<div class="cell small-12 large-4 large-offset-4">
 		<h2><a href="./src/03-10-2025_workday_workbench.php">Helpful Quicklinks</a></h2>
 		<ul>
-			<li><a target="_blank" href="https://www.nytimes.com/crosswords">NYT Games</a></li>
+			<li><a target="_blank" class="p1" href="https://www.nytimes.com/crosswords">NYT Games</a></li>
 		</ul>
 	</div>
 </div>
