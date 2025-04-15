@@ -1,0 +1,13 @@
+.parent-div {
+	background-color: #CCEA26;
+	outline: solid;
+}
+
+.child-div {
+	background-color: #DFFF33;
+	outline: solid;
+}
+
+.centered-text {
+    text-align: center;
+}
