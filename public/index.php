@@ -17,6 +17,10 @@
 		<ul>
 			<li><a target="_blank" class="p1" href="https://www.nytimes.com/crosswords">NYT Games</a></li>
 		</ul>
+		<h4>Spotify</h4>
+		<ul>
+			<li><a target="_blank" class="p1" href="https://open.spotify.com/album/31K9Z7fdxgFpIsoVg7fTtF?si=il6mQbOqQAWP0r70yzeOtw">Slothrust on Audiotree Live</a></li>
+		</ul>
 	</div>
 </div>
 
