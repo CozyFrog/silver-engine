@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <head>
 
-<!-- Compressed Foundations CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" crossorigin="anonymous">
+<!-- Compressed Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <link rel="stylesheet" href="../css/03-28-2025.css">
 
 </head>
 <body>
-<div class="grid-y" style="height: 40px;">
+<div style="height: 40px;">
 
 </div>
-<div class="grid-x grid-padding-x">
-	<div class="cell small-12 large-4 large-offset-2">
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-md-2">
+	</div>
+	<div class="col-md-4">
 		<h2><a target="_blank" href="https://impl.workday.com/wfu10/d/home.htmld">WFU10</a></h2>
 		<ul>
 			<li><a target="_blank" href='https://impl.workday.com/wfu10/d/task/XXXX$YYYYY.htmld'>Run GS Rep. Cat.</a></li>
@@ -29,13 +37,19 @@
 		</ul>
 	</div>
 
-	<div class="cell small-12 large-4">
-		<h2><a target="_blank" href="https://drive.google.com/drive/u/0/folders/1vKyOtwijT36vJpwchHIqK68kPFe-AKsS">Law WD Reporting Docs</h2>
-		<ul>
-			<li><a target="_blank" href="https://docs.google.com/document/d/1ryrFw6A9O_L-VJb-05kgBPyZVFl9cP4OfyIA4l3gTss/edit?tab=t.0">Course Schedule Foundation Report Spec Notes</a></li>
-				<ul><li><p>From meeting 03/11/2025 w/ Margaret Taylor, report requestor.</p></li></ul>
-		</ul>
+	<div class="col-md-4">
+		<h2><a data-toggle="collapse" href="#documentsMenu" aria-expanded="false" aria-controls="documentsMenuCollapse">
+			Documents Menu
+		</a></h2>
+		<div class="collapse" id="documentsMenu">
+			<p><a target="_blank" href="https://drive.google.com/drive/u/0/folders/1vKyOtwijT36vJpwchHIqK68kPFe-AKsS">Law WD Reporting Docs</a></p>
+			<ul>
+				<li><a target="_blank" href="https://docs.google.com/document/d/1ryrFw6A9O_L-VJb-05kgBPyZVFl9cP4OfyIA4l3gTss/edit?tab=t.0">Course Schedule Foundation Report Spec Notes</a></li>
+					<ul><li><p>From meeting 03/11/2025 w/ Margaret Taylor, report requestor.</p></li></ul>
+			</ul>
+		</div>
 	</div>
+</div>
 </div>
 
 </body>
