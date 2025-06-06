@@ -1,0 +1,17 @@
+.parent {
+	display: flex;
+	background-color: tan;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.child {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+
+}
+
+.vertical-separator {
+	height: 80px;
+}

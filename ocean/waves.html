@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+	<link rel='stylesheet' href='motion.css' />
+</head>
+<body>
+   <div class='vertical-separator'>
+   </div>
+
+
+	<div class='parent' id='sand'>
+		<div onclick = "this.style.width='200px'" class='child' id='waves'>
+		</div>
+	</div>
+	
+   <script>
+      // Get the div 
+      const waves = document.querySelector('#waves');
+      // Define the event handler function
+      function handleHover() {
+		const element = document.querySelector('#waves');
+		const marginLeft = getComputedStyle(waves).marginLeft;
+		
+		marginLeftNumber = Number(marginLeft.split("px")[0]);
+		console.log(marginLeft);
+		if (marginLeftNumber >= 1600) {
+			waves.style.marginLeft='0px';
+		}
+		else {
+			newMargin = marginLeftNumber;
+			newMargin += 173;
+			newMarginText = String(newMargin) + 'px';
+			waves.style.marginLeft=newMarginText;
+		}
+      }
+      // Attach the event listener to the waves
+      waves.addEventListener("mouseenter", handleHover);
+
+   </script>
+</body>
